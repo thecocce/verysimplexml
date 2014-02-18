@@ -1,0 +1,18 @@
+#summary Node type ntElement
+
+= Description =
+
+Node types of ntElement are the default node types, which may have child nodes and attributes and a text value.
+
+
+= Example =
+
+<code language="xml">
+<book id="bk101">A book text</book>
+</code>
+
+Will be parsed into a node with type `ntElement` and an attribute called `id` with `bk101` as its attribute value, as well as `A book text` as the text property.
+
+== Delphi Code ==
+<code language="delphi">
+  Node := TXmlNode.Create;  // Creates a new ntElement node</code>
