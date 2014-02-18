@@ -1,6 +1,6 @@
 #summary Help Page
 
-== Supported XML node types ==
+== XML node types ==
 
   * [http://code.google.com/p/verysimplexml/wiki/ntElement ntElement] (default node type)
   * [http://code.google.com/p/verysimplexml/wiki/ntComment ntComment] (comment nodes)
