@@ -15,4 +15,6 @@ Will be parsed into a node with type `ntElement` and an attribute called `id` wi
 
 == Delphi Code ==
 <code language="delphi">
-  Node := TXmlNode.Create;  // Creates a new ntElement node</code>
+  Node := TXmlNode.Create;  // Creates a new ntElement node
+  Node.Attributes['id'] := 'bk101';
+  Node.Text := 'A book text';</code>
