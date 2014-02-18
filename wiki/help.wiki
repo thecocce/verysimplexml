@@ -1,1 +1,14 @@
 #summary Help Page
+
+== Supported XML node types ==
+
+  * [http://code.google.com/p/verysimplexml/wiki/ntElement ntElement] (default node type)
+  * [http://code.google.com/p/verysimplexml/wiki/ntComment ntComment] (comment nodes)
+  * [http://code.google.com/p/verysimplexml/wiki/ntDocType ntDocType] (Document Type Definition, but not parsed/evaluated)
+  * [http://code.google.com/p/verysimplexml/wiki/ntText ntText] (text only nodes)
+  * [http://code.google.com/p/verysimplexml/wiki/ntCData ntCData] (CDATA sections)
+  * [http://code.google.com/p/verysimplexml/wiki/ntProcessingInstr ntProcessingInstr] (processing instructions)
+
+== Delphi  ==
+
+  * [http://code.google.com/p/verysimplexml/wiki/DelphiCompatibility Delphi version compatibility]
