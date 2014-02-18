@@ -1,0 +1,41 @@
+#summary Node type ntComment
+
+= Description =
+
+Node types of `ntComment` are the comment nodes types, which don't have child nodes nor attributes - just a text value.
+
+
+= Example =
+
+<code language="xml">
+<!-- This is the first book -->
+<book id="bk101">A book text</book>
+
+<!-- This is the second book -->
+<book id="bk102">Another book text</book>
+</code>
+
+Will be parsed into a node with type `ntElement` and an attribute called `id` with `bk101` as its attribute value, as well as `A book text` as the text property.
+
+== Delphi Code ==
+<code language="delphi">
+var
+  Node: TXmlNode;
+  XmlDoc: TXmlVerySimple;
+begin
+  ...
+  // Add a comment
+  Node := XmlDoc.AddChild('', ntComment); // Comment nodes don't have a name
+  Node.Text := ' This is the first book '; // Note the spaces!
+
+   // Add the book
+  XmlDoc.AddChild('book').SetAttribute('id', 'bk101').Text := 'A book text';
+
+   // Add a comment by using the fluent interface functions
+  XmlDoc.AddChild('', ntComment).Text := ' This is the second book ';
+
+   // Add the second book
+  XmlDoc.AddChild('book').SetAttribute('id', 'bk102').Text := 'Another book text';
+  ...
+end;
+</code>
