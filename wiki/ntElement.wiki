@@ -2,7 +2,7 @@
 
 = Description =
 
-Node types of ntElement are the default node types, which may have child nodes and attributes and a text value.
+Node types of `ntElement` are the default node types, which may have child nodes and attributes and a text value.
 
 
 = Example =
