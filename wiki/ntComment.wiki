@@ -15,7 +15,7 @@ Node types of `ntComment` are the comment nodes types, which don't have child no
 <book id="bk102">Another book text</book>
 </code>
 
-Will be parsed into a node with type `ntElement` and an attribute called `id` with `bk101` as its attribute value, as well as `A book text` as the text property.
+Comments may appear before or after any nodes or as child nodes in between.
 
 == Delphi Code ==
 <code language="delphi">
