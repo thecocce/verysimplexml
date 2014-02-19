@@ -12,3 +12,7 @@
 == Delphi  ==
 
   * [http://code.google.com/p/verysimplexml/wiki/DelphiCompatibility Delphi version compatibility]
+
+== XML node attributes  ==
+
+  * [http://code.google.com/p/verysimplexml/wiki/WorkingWithAttributes Working with Attributes]
