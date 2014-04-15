@@ -8,6 +8,8 @@
   * Delphi XE3
   * Delphi XE4
   * Delphi XE5
+  * Delphi XE6
+
 
 
 = Why does it not run on Delphi 2009 or any older version ? =
